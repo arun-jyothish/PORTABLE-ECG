@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Adafruit OLED 128x32 Mono I2C")(type "KiCad")(uri "/home/erk/WorkSpace/kicad/PORTABLE_ECG_MACHINE/Adafruit-128x32-I2C-OLED-Breakout-PCB/Adafruit OLED 128x32 Mono I2C/Adafruit OLED 128x32 Mono I2C.pretty")(options "")(descr ""))
+  (lib (name "TP4056")(type "KiCad")(uri "/home/erk/Downloads/TP4056")(options "")(descr ""))
+)
