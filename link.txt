@@ -1,0 +1,10 @@
+/home/erk/Pictures/Screenshot_20220513_130746.png
+
+HQ19-2132SYGC
+
+https://www.electronicscomp.com/0.96-inch-i2c-iic-128x64-oled-display-module-4-pin-blue-color?gclid=Cj0KCQjwg_iTBhDrARIsAD3Ib5h0G9ijU5vsp4KRjxkI5tUn4yUeLIZxBHRB3OebCJfpamWs1e9yqD0aAj3kEALw_wcB
+
+SSD ADA  https://learn.adafruit.com/monochrome-oled-breakouts/downloads
+
+
+https://adduino.com/arduino-pro-mini-board-schematics-100-explained/

@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SSD1306
+#
+DEF SSD1306 U 0 40 Y Y 1 L N
+F0 "U" -1500 320 50 H V L BNN
+F1 "SSD1306" 0 0 50 H I L BNN
+F2 "SSD1306" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+S -1500 -100 1500 300 0 0 10 f
+X C2P 1 -1300 -300 200 U 40 40 0 0 B 
+X C2N 2 -1100 -300 200 U 40 40 0 0 B 
+X C1P 3 -900 -300 200 U 40 40 0 0 B 
+X C1N 4 -700 -300 200 U 40 40 0 0 B 
+X VBAT 5 -500 -300 200 U 40 40 0 0 B 
+X VBREF 6 -300 -300 200 U 40 40 0 0 B 
+X VSS 7 -100 -300 200 U 40 40 0 0 B 
+X VDD 8 100 -300 200 U 40 40 0 0 B 
+X RES# 9 300 -300 200 U 40 40 0 0 B 
+X SCL 10 500 -300 200 U 40 40 0 0 B 
+X SDA 11 700 -300 200 U 40 40 0 0 B 
+X IREF 12 900 -300 200 U 40 40 0 0 B 
+X VCOMH 13 1100 -300 200 U 40 40 0 0 B 
+X VCC 14 1300 -300 200 U 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
