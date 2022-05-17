@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -112,8 +118,18 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.3,
+        0.5,
+        0.7
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -124,7 +140,15 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1041400|2540000|54059da0-d134-4c4d-9a54-ec18ec215fa2|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|1477010|2500630|993450cb-b679-469d-aabf-9b2409caed21|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|1477010|2614930|768e4d93-5711-43da-8f5b-f9ba50c6bdb5|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|977900|2172970|7a7cae9a-363d-4788-b147-bbd4ac42d40b|00000000-0000-0000-0000-000000000000",
+      "pin_not_connected|1155700|2578100|8439c3fb-529d-4fc3-8d35-10ebcef7051e|00000000-0000-0000-0000-000000000000",
+      "pin_not_connected|1459230|2217420|78b7a003-608f-41be-bc37-08a58542a264|00000000-0000-0000-0000-000000000000",
+      "pin_not_connected|952500|2527300|8f0b4be1-c07c-4119-a850-04f9241b05d9|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
