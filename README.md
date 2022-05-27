@@ -1,14 +1,19 @@
 # PORTABLE-ECG
 A Handheld ECG Machine with Mobile phone and Laptop interface. Cardiac condition prediction using ML
-```mermaid
-graph TD
-    A-->B
-    B-->C
-    C-->A
-    B-->D
-    D-->U
-    U-->B
-```
+
+[jump to README](/home/erk/WorkSpace/kicad/PORTABLE_ECG_MACHINE/src/README.md)
+
+
+[variable link][var link]
+LOCK
+
+[var link]: https://GOOGLE.COM 
+
+hello world
+
+
+![f3d render 1](https://drive.google.com/uc?id=149vw4zegmcoNbQL5KWwcFqe9mdXNZAxv) 
+
 ## P-ECG MACHINE
 
 In the prediction feature, patient's ECG signal is compared with various cardio gram.
@@ -31,6 +36,7 @@ graph LR
 
 ~~~mermaid
 graph TD 
+
    I((IDEATION)) --> Q[PREPARE FAQ] 
     I --> D[CONSTRAINTS IN NEW IMPLEMENTATION]
     D-->M[ MEASURES TAKEN ]
