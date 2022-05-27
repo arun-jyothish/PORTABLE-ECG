@@ -18,7 +18,7 @@ as the processing result the machine filter out many heart disease and predicts 
 ## BLOCK DIAGRAM
 ~~~mermaid
 
-graph TD
+graph LR 
  
     PWR[POWER SUPPLY]-->CHR[CHARGING CIRCUIT]
     RGL[POWER REGULATOR]-->OLED[OLED 128*64]
