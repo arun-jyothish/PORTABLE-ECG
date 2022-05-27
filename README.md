@@ -1,7 +1,7 @@
 # PORTABLE-ECG
 A Handheld ECG Machine with Mobile phone and Laptop interface. Cardiac condition prediction using ML
 
-[jump to README](/home/erk/WorkSpace/kicad/PORTABLE_ECG_MACHINE/src/README.md)
+[jump to README 2](./src/README.md)
 
 
 [variable link][var link]
