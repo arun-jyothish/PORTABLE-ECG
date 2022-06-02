@@ -2,5 +2,13 @@
 hello world world
  
 [prev](../README.md)
+  
+ALGORITHM
 
-THIS IS ANOTHER README FILE
+~~~mermaid
+graph TD
+    start((start))-->INPUT[WORK]
+    INPUT-->RUN([RUN])
+    
+~~~
+
