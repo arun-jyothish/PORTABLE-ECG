@@ -1,0 +1,20 @@
+### Module positions - created on Wed Jun  1 22:26:31 2022 ###
+### Printed by Pcbnew version (6.0.5)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                      Package                                     PosX       PosY       Rot  Side
+C12       .1uf                     C_0603_1608Metric                      -105.9180   -64.2620   90.0000  bottom
+C13       10p                      C_0603_1608Metric                       -89.6620   -68.5800  -90.0000  bottom
+C14       10p                      C_0603_1608Metric                       -92.9640   -58.6740  180.0000  bottom
+J1        UART                     PinHeader_1x05_P1.00mm_Horizontal       -85.8520   -73.4060    0.0000  bottom
+J2        ECG_PROBE                Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal   -90.5000   -30.0000  -90.0000  bottom
+J4        USB_C_Receptacle_USB2.0  USB_C_Receptacle_HRO_TYPE-C-31-M-12     -87.1220   -83.3120   90.0000  bottom
+J5        Conn_01x06_Male          6PIN_CONN                              -102.6160   -59.6900  180.0000  bottom
+JP3       LDO+                     2_PIN_SMD_SOLDER_JUMPER                -112.7760   -43.6880  -90.0000  bottom
+JP4       LDO-                     2_PIN_SMD_SOLDER_JUMPER                -108.4580   -49.5300  -90.0000  bottom
+JP5       OUT                      2_PIN_SMD_SOLDER_JUMPER                -112.0140   -45.9740  -90.0000  bottom
+JP6       LDO+                     2_PIN_SMD_SOLDER_JUMPER                -110.6370   -38.9000  -90.0000  bottom
+R11       10k                      R_0603_1608Metric                       -92.7100   -69.3420    0.0000  bottom
+U3        ATmega328PB-A            TQFP-32_7x7mm_P0.8mm                    -99.8220   -64.7700    0.0000  bottom
+Y1        16MHZ                    Crystal_SMD_0603-2Pin_6.0x3.5mm         -89.6620   -63.2460  -90.0000  bottom
+## End
