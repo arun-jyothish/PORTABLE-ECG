@@ -1,11 +1,124 @@
-Plotted to '/home/erk/WorkSpace/kicad/PORTABLE_ECG_MACHINE/PORTABLE_ECG_MACHINE/FAB FILES/PORTABLE_ECG_MACHINE-F_Cu.gbr'.
-Plotted to '/home/erk/WorkSpace/kicad/PORTABLE_ECG_MACHINE/PORTABLE_ECG_MACHINE/FAB FILES/PORTABLE_ECG_MACHINE-B_Cu.gbr'.
-Plotted to '/home/erk/WorkSpace/kicad/PORTABLE_ECG_MACHINE/PORTABLE_ECG_MACHINE/FAB FILES/PORTABLE_ECG_MACHINE-F_Paste.gbr'.
-Plotted to '/home/erk/WorkSpace/kicad/PORTABLE_ECG_MACHINE/PORTABLE_ECG_MACHINE/FAB FILES/PORTABLE_ECG_MACHINE-B_Paste.gbr'.
-Plotted to '/home/erk/WorkSpace/kicad/PORTABLE_ECG_MACHINE/PORTABLE_ECG_MACHINE/FAB FILES/PORTABLE_ECG_MACHINE-F_Silkscreen.gbr'.
-Plotted to '/home/erk/WorkSpace/kicad/PORTABLE_ECG_MACHINE/PORTABLE_ECG_MACHINE/FAB FILES/PORTABLE_ECG_MACHINE-B_Silkscreen.gbr'.
-Plotted to '/home/erk/WorkSpace/kicad/PORTABLE_ECG_MACHINE/PORTABLE_ECG_MACHINE/FAB FILES/PORTABLE_ECG_MACHINE-F_Mask.gbr'.
-Plotted to '/home/erk/WorkSpace/kicad/PORTABLE_ECG_MACHINE/PORTABLE_ECG_MACHINE/FAB FILES/PORTABLE_ECG_MACHINE-B_Mask.gbr'.
-Plotted to '/home/erk/WorkSpace/kicad/PORTABLE_ECG_MACHINE/PORTABLE_ECG_MACHINE/FAB FILES/PORTABLE_ECG_MACHINE-Edge_Cuts.gbr'.
-Created Gerber job file '/home/erk/WorkSpace/kicad/PORTABLE_ECG_MACHINE/PORTABLE_ECG_MACHINE/FAB FILES/PORTABLE_ECG_MACHINE-job.gbrjob'.
-Info: Done.
+Info: Processing symbol 'R8:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R18:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R17:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R16:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R15:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R14:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R13:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R12:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R11:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R10:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R9:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R19:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R7:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'Q2:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'Q1:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'LA1:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'RL1:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'Y1:Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm'.
+Info: Processing symbol 'U6:Display:OLED-128O064D'.
+Info: Processing symbol 'U5:tp4056 ftprnt:SOP127P600X175-9N'.
+Info: Processing symbol 'U4:Package_TO_SOT_SMD:SOT-223'.
+Info: Processing symbol 'U3:Package_QFP:TQFP-32_7x7mm_P0.8mm'.
+Info: Processing symbol 'U2:CP2102-GM:QFN50P500X500X100-29N'.
+Info: Processing symbol 'TP1:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'SW1:Button_Switch_SMD:SW_SPDT_PCM12'.
+Info: Processing symbol 'SELECT1:tactile switch:SW_PTS525SM15SMTR2LFS'.
+Info: Processing symbol 'RST_CP1:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'C1:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'RED1:LED_SMD:LED_0603_1608Metric'.
+Info: Processing symbol 'RA1:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'R27:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R26:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R25:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R24:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R23:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R22:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R21:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R20:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C22:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'DRIVE1:tactile switch:SW_PTS525SM15SMTR2LFS'.
+Info: Processing symbol 'D3:Diode_SMD:D_0603_1608Metric'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'D2:Diode_SMD:D_0603_1608Metric'.
+Info: Processing symbol 'D1:Diode_SMD:D_0603_1608Metric'.
+Info: Processing symbol 'C11:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'D-1:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'D+1:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'C24:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C23:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'GREEN1:LED_SMD:LED_0603_1608Metric'.
+Info: Processing symbol 'C21:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C20:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C19:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C18:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C17:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C16:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C15:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C14:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C13:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C12:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'IC1:KiCad:QFN50P400X400X80-21N-D'.
+Info: Processing symbol 'C6:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C7:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C10:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'B_TEMP1:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'JP7:TEST_POINT_MATRIX_6-PIN:2_PIN_SMD_SOLDER_JUMPER'.
+Info: Processing symbol 'JP6:TEST_POINT_MATRIX_6-PIN:2_PIN_SMD_SOLDER_JUMPER'.
+Info: Processing symbol 'JP5:TEST_POINT_MATRIX_6-PIN:2_PIN_SMD_SOLDER_JUMPER'.
+Info: Processing symbol 'JP4:TEST_POINT_MATRIX_6-PIN:2_PIN_SMD_SOLDER_JUMPER'.
+Info: Processing symbol 'JP3:TEST_POINT_MATRIX_6-PIN:2_PIN_SMD_SOLDER_JUMPER'.
+Info: Processing symbol 'JP2:TEST_POINT_MATRIX_6-PIN:3_PIN_SOLDER_JUMPER_SMD'.
+Info: Processing symbol 'JP1:TEST_POINT_MATRIX_6-PIN:3_PIN_SOLDER_JUMPER_SMD'.
+Info: Processing symbol 'J5:TEST_POINT_MATRIX_6-PIN:6PIN_CONN'.
+Info: Processing symbol 'J4:Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12'.
+Info: Processing symbol 'J3:Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal'.
+Info: Processing symbol 'C4:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'J2:Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal'.
+Info: Processing symbol 'J1:Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Horizontal'.
+Reconnected U3 pin 9 from unconnected-(U3-Pad9) to Net-(U3-Pad9).
+Reconnected U2 pin 5 from /USB_D+ to /USB_D-.
+Removed unused net unconnected-(U3-Pad9).
+Add net unconnected-(U3-Pad11).
+Reconnected U3 pin 11 from Net-(SELECT1-Pad3) to unconnected-(U3-Pad11).
+Reconnected U3 pin 28 from unconnected-(U3-Pad28) to /REF_IN.
+Reconnected via from unconnected-(U3-Pad11) to unconnected-(U3-Pad11).
+Removed unused net Net-(SELECT1-Pad3).
+Removed unused net unconnected-(U3-Pad28).
+Added JP7 (footprint 'TEST_POINT_MATRIX_6-PIN:2_PIN_SMD_SOLDER_JUMPER').
+Add net Net-(U3-Pad9).
+Changed REF** reference designator to JP7.
+Changed JP7 value from 2_PIN_SMD_SOLDER_JUMPER to REF.
+Updated JP7 symbol association from  to /c6ea8fe8-0665-4015-87c8-1bc5c944518d.
+Updated JP7 properties.
+Connected JP7 pin 1 to /REF_OUT.
+Add net /REF_IN.
+Connected JP7 pin 2 to /REF_IN.
+Changed R14 value from 10M to 180k.
+Changed R15 value from 10M to 180k.
+Changed R16 value from 10M to 360k.
+Reconnected U2 pin 4 from /USB_D- to /USB_D+.
+Reconnected SELECT1 pin 3 from Net-(SELECT1-Pad3) to Net-(U3-Pad9).
+Warning: No net found for symbol U2 pin 22.
+Warning: No net found for symbol U2 pin 21.
+Warning: No net found for symbol U2 pin 20.
+Warning: No net found for symbol J2 pin TN.
+Warning: No net found for symbol U4 pin 4.
+Warning: No net found for symbol U2 pin 19.
+Warning: No net found for symbol U2 pin 17.
+Warning: No net found for symbol U2 pin 16.
+Warning: No net found for symbol U2 pin 15.
+Warning: No net found for symbol U2 pin 14.
+Warning: No net found for symbol U2 pin 13.
+Warning: No net found for symbol U2 pin 10.
+
+
+Info: Total warnings: 0, errors: 0.
