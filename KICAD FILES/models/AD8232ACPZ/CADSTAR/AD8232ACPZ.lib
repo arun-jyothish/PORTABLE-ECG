@@ -1,0 +1,18 @@
+.AD8232ACPZ :1 ;ADI ECG and HRM IC Single Lead
+QFN50P400X400X80-21N-D
+*STM IC
+*NGS
+*PLB 1="HPDRIVE" 2="+IN" 3="-IN" 4="RLDFB" 5="RLD" 6="SW" 7="OPAMP+" 8="REFOUT" 9="OPAMP-" 10="OUT" 11="LOD-" 12="LOD+" 13="'SDN'" 14="AC/'DC'" 15="FR" 16="GND_1" 17="+VS" 18="REFIN" 19="IAOUT" 20="HPSENSE" 21="GND_2"
+*MXP 21
+*DFN AD8232ACPZ
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (AD8232ACPZ)
+~!Mouser Part Number (N/A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8232ACPZ?qs=%252BEew9%252B0nqrDwrV1NZJDXjA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.analog.com/media/en/technical-documentation/data-sheets/ad8232.pdf)
+~!Height (0.8mm)
+~!3D_Model (AD8232ACPZ)
+AD8232ACPZ
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 

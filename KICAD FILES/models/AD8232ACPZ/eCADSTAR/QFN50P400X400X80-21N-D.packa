@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AD8232ACPZ"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-05-07-07:48:41)
+    (mountForm default
+        (footprintRef "QFN50P400X400X80-21N-D")
+        (spec "System")
+    )
+)

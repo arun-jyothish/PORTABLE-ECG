@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8232ACPZ
+D ADI ECG and HRM IC Single Lead
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8232.pdf
+$ENDCMP
+#
+#End Doc Library
