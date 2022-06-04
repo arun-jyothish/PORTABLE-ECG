@@ -6316,7 +6316,7 @@
     (uuid 962f53be-4796-4882-97a5-e23946b557e2)
     (property "Reference" "U5" (id 0) (at 112.522 231.013 0))
     (property "Value" "TP4056" (id 1) (at 112.522 233.553 0))
-    (property "Footprint" "Package_TO_SOT_SMD:TSOT-23-8" (id 2) (at 112.522 248.793 0)
+    (property "Footprint" "tp4056 ftprnt:SOP127P600X175-9N" (id 2) (at 112.522 248.793 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 112.522 248.793 0)
@@ -7728,7 +7728,7 @@
       (reference "U4") (unit 1) (value "LM3940IMP-3.3/NOPB") (footprint "Package_TO_SOT_SMD:SOT-223")
     )
     (path "/962f53be-4796-4882-97a5-e23946b557e2"
-      (reference "U5") (unit 1) (value "TP4056") (footprint "Package_TO_SOT_SMD:TSOT-23-8")
+      (reference "U5") (unit 1) (value "TP4056") (footprint "tp4056 ftprnt:SOP127P600X175-9N")
     )
     (path "/652955b7-3515-4c2d-9b6d-72d16d4413b9"
       (reference "U6") (unit 1) (value "SSD1306") (footprint "Display:OLED-128O064D")

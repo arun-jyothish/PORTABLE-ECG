@@ -22,7 +22,7 @@ hello world
 
 <br>
 
-![f3d render 1](https://drive.google.com/uc?id=149vw4zegmcoNbQL5KWwcFqe9mdXNZAx) 
+![f3d render 1](https://drive.google.com/uc?id=149vw4zegmcoNbQL5KWwcFqe9mdXNZAxv) 
 
 ## P-ECG MACHINE
 
@@ -35,16 +35,18 @@ as the processing result the machine filter out many heart disease and predicts 
 
 graph TD
  
-    PWR[POWER SUPPLY]-->CHR[CHARGING CIRCUIT]
+    UART-->PWR
+    PWR[USB PORT]-->CHR[CHARGING CIRCUIT]
     CHR-->BAT[BATTERY 3.7 LI-ION]
     RGL[POWER REGULATOR]-.->|3.3 VOLT|OLED[OLED 128*64]
-    CHR--> RGL
+    CHR-->RGL
+    BAT-->RGL
     RGL-.->|3.7 VOLT|UC 
     UC{MICROCONTROLLER}-->OLED
    
     UC-->UART[USB TO TTL CONVERTER]
-    UART-.->EXT[COMPUTER]
-    UART-.->EXT2[MOBILE]
+    PWR-.->EXT[COMPUTER]
+    PWR-.->EXT2[MOBILE]
     probe[/PROBE/]-->|DATA|INS
     RGL-.->INS
     RA((RA))-->probe

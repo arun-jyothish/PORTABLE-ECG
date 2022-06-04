@@ -5,4 +5,5 @@
   (lib (name "dld 8232 ad")(type "KiCad")(uri "/home/erk/Downloads/LIB_AD8232ACPZ-WP/AD8232ACPZ-WP/KiCad/QFN50P400X400X80-21N-D.kicad_mod")(options "")(descr "")(disabled))
   (lib (name "tactile switch")(type "KiCad")(uri "/home/erk/.local/share/kicad/6.0/3rdparty/tactile_switch")(options "")(descr ""))
   (lib (name "OLED 128*64")(type "KiCad")(uri "/home/erk/.local/share/kicad/6.0/3rdparty/OLED-128O064H-GPP3N00000(1)")(options "")(descr ""))
+  (lib (name "tp4056 ftprnt")(type "KiCad")(uri "/home/erk/.local/share/kicad/6.0/3rdparty/tp4056")(options "")(descr ""))
 )
