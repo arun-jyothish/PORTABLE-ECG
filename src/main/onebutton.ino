@@ -7,6 +7,8 @@
 #include <Arduino.h>
 #include <OneButton.h>
 #include <filters.h>
+
+#define button_pin D4
 int ecg_signal  = 0 ; 
 unsigned long int endtime =0; 
 unsigned long int starttime = 0;
@@ -50,7 +52,7 @@ class Button{
 		}
 };
 
-Button button(4);
+Button button(button_pin);
 
 void setup() {
 	pinMode(4,INPUT_PULLUP);

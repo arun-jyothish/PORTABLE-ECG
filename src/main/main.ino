@@ -1,64 +1,64 @@
-/**
- * FunctionalButton.ino - Example for the OneButtonLibrary library.
- * This is a sample sketch to show how to use OneClick library functionally on ESP32,ESP8266... 
- * 
- */
-#include <Arduino.h>
-#include <OneButton.h>
-#include <filters.h>
-int ecg_signal  = 0 ; 
-unsigned long int endtime =0; 
-unsigned long int starttime = 0;
-String Ecg_data ="";
+-#include <Hash.h> //using sha1 hash
+#include <SPI.h> // SPI library- Serial Peripheral Interface Protocol
+#include <NTPClient.h>
+#include "FirebaseESP8266.h"
+#include <ESP8266WiFi.h>
+#include <WiFiUdp.h>
 
-const float cutoff_freq   = 17.0;  //Cutoff frequency in Hz
-const float sampling_time = 0.007; //Sampling time in seconds.
-IIR::ORDER  order  = IIR::ORDER::OD4; // Order (OD1 to OD4)
+#define FIREBASE_HOST "https://nodemcu-1206.firebaseio.comx /"      
+#define FIREBASE_AUTH "YtEadYbnayiO7jIrytZo1z7eWaBJ3EjuQ8uUcFEk"           
+#define WIFI_SSID "motog"                                  
+#define WIFI_PASSWORD "zanespectre"
 
-// Low-pass filter
-Filter f(cutoff_freq, sampling_time, order);
 
-unsigned long int timer = millis();
-int init_delay = 5000;
+WiFiUDP ntpUDP;
+NTPClient timeClient(ntpUDP);
 
-class Button{
-  private:
-    OneButton button;
-    int value;
-  public:
-    explicit Button(uint8_t pin):button(pin) {
-      button.attachClick([](void *scope) { ((Button *) scope)->Clicked();}, this);
-    }
-
-    void Clicked(){
-      starttime = millis() + 5000;
-      endtime= millis() + 15000;
-    }
-
-    void handle(){
-      button.tick();
-    }
-};
-
-Button button(0);
-
+FirebaseData firebaseData;
+FirebaseJson json;
+long randNumber;
 void setup() {
-  Serial.begin(9600);
-}
-
-void loop() {
-  button.handle();
-  time = millis();
-  if (starttime < time && time < endtime)
-  {
-    
-    Ecg_data += (String)(f.filterIn(analogRead(A0));
+  Serial.begin(9600); // open serial connection
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);                                  
+  Serial.print("Connecting to ");
+  Serial.print(WIFI_SSID);
+  while (WiFi.status() != WL_CONNECTED) {
+    Serial.print(".");
+    delay(500);
   }
+ 
+  Serial.println();
+  Serial.print("Connected");
+  Serial.print("IP Address: ");
+  Serial.println(WiFi.localIP());                               //prints local IP address
+  Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);  // connect to the firebase
+  timeClient.begin();
+ 
+}
+ 
+void loop() {
 
-if ( time > endtime )
-{
-  // push code
-  Serial.println(Ecg_date);
+      String resultid = sha1(random(10000););//Encrypting id using SHA1 Algorithm
+      Serial.println(" " + resultid); // Print out of encrypted id is complete.
+      delay(2000);
+      timeClient.update();
+      json.set("chipid",resultid);
+      json.set("ecg",Ecg_data);
+      json.set("readerid","H101");
+      json.set("timestamp",timeClient.getFormattedTime());
+      if (Firebase.pushJSON(firebaseData, "/rfid", json)){
+
+  Serial.println(firebaseData.dataPath());
+
+  Serial.println(firebaseData.pushName());
+
+  Serial.println(firebaseData.dataPath() + "/"+ firebaseData.pushName());
+
+} else {
+  Serial.println(firebaseData.errorReason());
 }
 
+//  }
+    }
+  }
 }
